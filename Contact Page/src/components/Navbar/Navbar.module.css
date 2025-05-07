@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 100px
+}
+
+.navbar .logo img {
+    width: 100%;
+    height: 100%
+}
+
+.navbar ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-weight: 500;
+}

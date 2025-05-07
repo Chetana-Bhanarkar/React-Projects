@@ -1,0 +1,11 @@
+.contact_sec{
+    padding: 2rem 10rem;
+}
+.contact_sec h1{
+    font-size: 48px;
+    font-weight: 800px;
+}
+.contact_sec p{
+    font-size: 16px;
+    font-weight: 600px;
+}

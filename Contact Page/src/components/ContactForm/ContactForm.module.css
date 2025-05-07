@@ -1,0 +1,10 @@
+.container{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container .form_btns{
+    display: flex;
+    gap: 20px;
+}
