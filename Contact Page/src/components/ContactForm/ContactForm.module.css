@@ -1,10 +1,52 @@
-.container{
+.container {
     max-width: 1000px;
     display: flex;
     margin: 0 auto;
+    /* margin-bottom: 50px; */
+    justify-content: space-between;
 }
 
-.container .form_btns{
+.container .form_btns {
     display: flex;
     gap: 20px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.container .contact_image img{
+    width: 490px;
+    /* margin: 0 100px; */
+}
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form_controls {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form_controls input{
+    height: 40px;
+    padding: 4px 10px;
+}
+.form_controls textarea{
+    padding: 10px 10px;
+}
+
+.form_controls label{
+    position: absolute;
+    top: -12px;
+    left: 24px;
+    font-weight: bolder;
+    background: #fff;
+    padding: 0 5px;
 }

@@ -11,8 +11,10 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <ContactHeader></ContactHeader>
-      <ContactForm></ContactForm>
+      <div className="main_container">
+        <ContactHeader></ContactHeader>
+        <ContactForm></ContactForm>
+      </div>
     </>
   )
 }
